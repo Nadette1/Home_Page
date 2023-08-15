@@ -28,7 +28,7 @@ h2 {
 
 nav {
     display: flex;
-    padding: 1% 2%;
+    padding: 8px 8px 8px 16px;
     justify-content: space-between;
     align-items: center;
     background-color: white;
@@ -38,7 +38,7 @@ nav {
 .nav-links ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 10px;
     position: relative;
 }
 
@@ -70,6 +70,10 @@ nav {
     background-color: white;
 }
 
+.search a {
+    color: #000000;
+
+}
 
 
 .btn {
@@ -81,4 +85,20 @@ nav {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="search"] {
+        width: 100%;
+    }
 }
